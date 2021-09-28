@@ -550,7 +550,7 @@ namespace GitDependencies
                 }
             }
 
-            if (!WriteWokingManifest(WorkingManifestPath, TempWorkingManifestPath, NewWorkingManifest))
+            if (!WriteWorkingManifest(WorkingManifestPath, TempWorkingManifestPath, NewWorkingManifest))
             {
                 return false;
             }
