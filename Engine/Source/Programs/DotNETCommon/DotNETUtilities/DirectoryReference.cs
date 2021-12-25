@@ -67,7 +67,7 @@ namespace Tools.DotNETCommon
                 }
 
                 int ParentLength = FullName.LastIndexOf(Path.DirectorySeparatorChar);
-                if (ParentLength == 2 && Fullname[1] == ':')
+                if (ParentLength == 2 && FullName[1] == ':')
                 {
                     ParentLength++;
                 }
