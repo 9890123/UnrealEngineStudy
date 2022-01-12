@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayUtils.cs" />
+    <Compile Include="BinaryArchiveReader.cs" />
     <Compile Include="FileSystemReference.cs" />
     <Compile Include="DirectoryReference.cs" />
   </ItemGroup>
