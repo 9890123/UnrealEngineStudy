@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{0F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealBuildTool", "UnrealBuildTool\UnrealBuildTool.csproj", "{20302493-A044-40D1-86E6-3EC3CDC37DAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETUtilities", "Engine\Source\Programs\DotNETCommon\DotNETUtilities\DotNETUtilities.csproj", "{2479661B-D06E-4FD5-806F-32B305EED4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{20302493-A044-40D1-86E6-3EC3CDC37DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20302493-A044-40D1-86E6-3EC3CDC37DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20302493-A044-40D1-86E6-3EC3CDC37DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2479661B-D06E-4FD5-806F-32B305EED4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2479661B-D06E-4FD5-806F-32B305EED4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2479661B-D06E-4FD5-806F-32B305EED4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2479661B-D06E-4FD5-806F-32B305EED4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ECAB1D22-3D8A-4A8C-9915-106C00811351} = {0F76B123-FD84-4516-849F-8920655F2153}
 		{20302493-A044-40D1-86E6-3EC3CDC37DAA} = {0F76B123-FD84-4516-849F-8920655F2153}
+		{2479661B-D06E-4FD5-806F-32B305EED4A5} = {0F76B123-FD84-4516-849F-8920655F2153}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6414475-2F0B-4DCF-9972-F8BD448EB77B}
